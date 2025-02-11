@@ -1,0 +1,14 @@
+2024-12-10T08:52:59.474Z info: API Gateway running on port 3000
+2024-12-10T08:56:58.486Z info: API Gateway running on port 3000
+2024-12-10T08:58:18.333Z info: API Gateway running on port 3000
+2024-12-10T09:04:29.820Z info: API Gateway running on port 3000
+2024-12-10T09:06:55.627Z info: API Gateway running on port 3000
+2024-12-10T09:08:26.963Z info: API Gateway running on port 3000
+2024-12-10T09:09:41.426Z info: API Gateway running on port 3000
+2024-12-10T09:10:07.578Z info: API Gateway running on port 3000
+2024-12-10T09:10:26.158Z error: Error in API Gateway - /register: Request failed with status code 404
+2024-12-10T09:11:08.173Z info: API Gateway running on port 3000
+2024-12-10T09:11:14.476Z error: Error in API Gateway - /register: Request failed with status code 404
+2024-12-10T09:12:36.134Z info: API Gateway running on port 3000
+2024-12-10T09:12:58.076Z error: Error in API Gateway - /register: Request failed with status code 500
+2024-12-10T09:13:31.769Z error: Error in API Gateway - /register: Request failed with status code 500

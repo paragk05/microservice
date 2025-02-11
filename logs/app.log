@@ -1,0 +1,167 @@
+2024-12-10T11:59:35.465Z info: API Gateway running on port 3000
+2024-12-10T12:00:51.043Z info: API Gateway running on port 3000
+2024-12-10T12:01:52.157Z info: API Gateway running on port 3000
+2024-12-10T12:07:51.298Z error: Error in API Gateway - /register: connect ECONNREFUSED ::1:3002
+2024-12-10T12:08:38.838Z info: API Gateway running on port 3000
+2024-12-10T12:08:51.207Z error: Error in API Gateway - /register: connect ECONNREFUSED ::1:3002
+2024-12-10T12:10:15.960Z info: API Gateway running on port 3000
+2024-12-10T12:11:36.941Z info: API Gateway running on port 3000
+2024-12-10T12:12:14.674Z info: User Service running on port 3002
+2024-12-10T12:12:14.682Z info: MongoDB connected successfully
+2024-12-10T12:15:19.445Z error: Error in API Gateway - /register: connect ECONNREFUSED ::1:3002
+2024-12-10T12:15:39.671Z info: User Service running on port 3002
+2024-12-10T12:15:39.680Z info: MongoDB connected successfully
+2024-12-10T12:16:04.096Z info: Author Service running on port 3003
+2024-12-10T12:16:04.105Z info: MongoDB connected successfully
+2024-12-10T12:20:37.621Z info: API Gateway running on port 3000
+2024-12-10T12:20:42.701Z error: Error in API Gateway - /books: connect ECONNREFUSED ::1:3001
+2024-12-10T12:23:42.629Z info: Book Service running on port 3003
+2024-12-10T12:23:42.637Z info: MongoDB connected successfully
+2024-12-10T12:24:05.620Z info: API Gateway running on port 3000
+2024-12-10T12:24:09.158Z error: Error adding book: Book validation failed: author: Cast to ObjectId failed for value "" (type string) at path "author" because of "BSONError"
+2024-12-10T12:24:09.163Z error: Error in API Gateway - /books: Request failed with status code 500
+2024-12-10T12:27:16.221Z info: API Gateway running on port 3000
+2024-12-10T12:27:37.506Z error: Error fetching books: Schema hasn't been registered for model "Author".
+Use mongoose.model(name, schema)
+2024-12-10T12:27:37.517Z error: Error in API Gateway - /books: Request failed with status code 500
+2024-12-10T12:30:28.909Z info: Book Service running on port 3003
+2024-12-10T12:30:28.918Z info: MongoDB connected successfully
+2024-12-10T12:30:32.463Z error: Error fetching books: Schema hasn't been registered for model "Author".
+Use mongoose.model(name, schema)
+2024-12-10T12:30:32.467Z error: Error in API Gateway - /books: Request failed with status code 500
+2024-12-10T12:31:43.084Z info: Book Service running on port 3003
+2024-12-10T12:31:43.092Z info: MongoDB connected successfully
+2024-12-10T12:31:46.239Z error: Error fetching books: Schema hasn't been registered for model "Author".
+Use mongoose.model(name, schema)
+2024-12-10T12:31:46.244Z error: Error in API Gateway - /books: Request failed with status code 500
+2024-12-10T12:33:27.932Z error: Error fetching books: Schema hasn't been registered for model "Author".
+Use mongoose.model(name, schema)
+2024-12-10T12:33:27.933Z error: Error in API Gateway - /books: Request failed with status code 500
+2024-12-10T12:35:41.936Z info: Book Service running on port 3003
+2024-12-10T12:35:41.946Z info: MongoDB connected successfully
+2024-12-10T12:36:37.611Z info: Book Service running on port 3003
+2024-12-10T12:36:37.619Z info: MongoDB connected successfully
+2024-12-10T12:36:41.041Z error: Error fetching books: Schema hasn't been registered for model "Author".
+Use mongoose.model(name, schema)
+2024-12-10T12:36:41.044Z error: Error in API Gateway - /books: Request failed with status code 500
+2024-12-10T12:46:31.726Z info: Book Service running on port 3003
+2024-12-10T12:46:31.734Z info: MongoDB connected successfully
+2024-12-10T12:46:34.429Z error: Error fetching books: Schema hasn't been registered for model "Author".
+Use mongoose.model(name, schema)
+2024-12-10T12:46:34.433Z error: Error in API Gateway - /books: Request failed with status code 500
+2024-12-10T12:46:54.710Z info: Book Service running on port 3003
+2024-12-10T12:46:54.718Z info: MongoDB connected successfully
+2024-12-10T12:47:02.921Z error: Error fetching books: Schema hasn't been registered for model "Author".
+Use mongoose.model(name, schema)
+2024-12-10T12:47:02.928Z error: Error in API Gateway - /books: Request failed with status code 500
+2024-12-10T12:50:05.333Z info: Book Service running on port 3003
+2024-12-10T12:50:05.341Z info: MongoDB connected successfully
+2024-12-10T12:52:14.919Z info: Order Service running on port 3004
+2024-12-10T12:52:14.927Z info: MongoDB connected successfully
+2024-12-10T12:59:31.281Z info: Order Service running on port 3004
+2024-12-10T12:59:31.289Z info: MongoDB connected successfully
+2024-12-10T12:59:40.451Z info: Book Service running on port 3003
+2024-12-10T12:59:40.459Z info: MongoDB connected successfully
+2024-12-10T13:02:28.628Z info: API Gateway running on port 3000
+2024-12-10T13:07:56.939Z info: Order Service running on port 3004
+2024-12-10T13:07:56.947Z info: MongoDB connected successfully
+2024-12-10T13:11:18.160Z info: API Gateway running on port 3000
+2024-12-10T13:13:55.012Z info: API Gateway running on port 3000
+2024-12-10T13:14:10.899Z info: User Service running on port 3002
+2024-12-10T13:14:10.907Z info: MongoDB connected successfully
+2024-12-10T13:16:00.057Z info: API Gateway running on port 3000
+2024-12-10T13:17:55.530Z info: API Gateway running on port 3000
+2024-12-10T13:19:07.633Z info: API Gateway running on port 3000
+2024-12-10T13:19:10.653Z error: Error in API Gateway - /order: Request failed with status code 404
+2024-12-10T13:20:21.917Z info: API Gateway running on port 3000
+2024-12-10T13:20:26.922Z error: Error creating order: Order validation failed: books: Cast to embedded failed for value "675834d17ee161f8410ec370" (type string) at path "books" because of "ObjectParameterError"
+2024-12-10T13:20:26.927Z error: Error in API Gateway - /order: Request failed with status code 500
+2024-12-10T13:22:02.533Z info: API Gateway running on port 3000
+2024-12-10T13:22:06.293Z error: Error creating order: Order validation failed: books: Cast to embedded failed for value "675834d17ee161f8410ec370" (type string) at path "books" because of "ObjectParameterError"
+2024-12-10T13:22:06.296Z error: Error in API Gateway - /order: Request failed with status code 500
+2024-12-10T13:22:55.655Z info: API Gateway running on port 3000
+2024-12-10T13:23:00.319Z error: Error creating order: Order validation failed: books: Cast to embedded failed for value "675834d17ee161f8410ec370" (type string) at path "books" because of "ObjectParameterError"
+2024-12-10T13:23:00.322Z error: Error in API Gateway - /order: Request failed with status code 500
+2024-12-10T13:23:13.374Z info: API Gateway running on port 3000
+2024-12-10T13:23:16.587Z error: Error creating order: Order validation failed: books: Cast to embedded failed for value "675834d17ee161f8410ec370" (type string) at path "books" because of "ObjectParameterError"
+2024-12-10T13:23:16.602Z error: Error in API Gateway - /order: Request failed with status code 500
+2024-12-10T13:26:21.343Z info: Order Service running on port 3004
+2024-12-10T13:26:21.352Z info: MongoDB connected successfully
+2024-12-10T13:26:27.470Z error: Error creating order: Order validation failed: books: Cast to embedded failed for value "675834d17ee161f8410ec370" (type string) at path "books" because of "ObjectParameterError"
+2024-12-10T13:26:27.484Z error: Error in API Gateway - /order: Request failed with status code 500
+2024-12-10T13:28:31.731Z info: Order Service running on port 3004
+2024-12-10T13:28:31.738Z info: MongoDB connected successfully
+2024-12-10T13:28:36.972Z error: Error creating order: Order validation failed: books: Cast to embedded failed for value "675834d17ee161f8410ec370" (type string) at path "books" because of "ObjectParameterError"
+2024-12-10T13:28:36.985Z error: Error in API Gateway - /order: Request failed with status code 500
+2024-12-10T13:31:31.932Z info: Order Service running on port 3004
+2024-12-10T13:31:31.940Z info: MongoDB connected successfully
+2024-12-10T13:36:01.563Z info: Order Service running on port 3004
+2024-12-10T13:36:01.571Z info: MongoDB connected successfully
+2024-12-10T13:36:07.728Z info: API Gateway running on port 3000
+2024-12-10T13:36:11.168Z error: Error fetching books: Cannot populate path `author` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2024-12-10T13:36:11.176Z error: Error in API Gateway - /books: Request failed with status code 500
+2024-12-10T13:37:45.650Z info: Order Service running on port 3004
+2024-12-10T13:37:45.659Z info: MongoDB connected successfully
+2024-12-10T13:37:48.853Z error: Error fetching books: Cannot populate path `author` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2024-12-10T13:37:48.859Z error: Error in API Gateway - /books: Request failed with status code 500
+2025-02-11T08:00:40.300Z info: API Gateway running on port 3000
+2025-02-11T08:01:04.248Z info: User Service running on port 3002
+2025-02-11T08:01:04.281Z info: MongoDB connected successfully
+2025-02-11T08:01:20.767Z info: Book Service running on port 3003
+2025-02-11T08:01:20.775Z info: MongoDB connected successfully
+2025-02-11T08:01:41.081Z info: Order Service running on port 3004
+2025-02-11T08:01:41.089Z info: MongoDB connected successfully
+2025-02-11T08:09:37.690Z info: Order Service running on port 3004
+2025-02-11T08:09:37.698Z info: MongoDB connected successfully
+2025-02-11T08:10:15.134Z info: Order Service running on port 3004
+2025-02-11T08:10:15.142Z info: MongoDB connected successfully
+2025-02-11T08:10:21.524Z info: API Gateway running on port 3000
+2025-02-11T08:10:59.584Z error: Error creating order: order is not defined
+2025-02-11T08:10:59.591Z error: Error in API Gateway - /order: Request failed with status code 500
+2025-02-11T08:12:19.589Z info: API Gateway running on port 3000
+2025-02-11T08:12:26.496Z info: Order Service running on port 3004
+2025-02-11T08:12:26.505Z info: MongoDB connected successfully
+2025-02-11T08:12:32.895Z error: Error creating order: order is not defined
+2025-02-11T08:12:32.900Z error: Error in API Gateway - /order: Request failed with status code 500
+2025-02-11T08:13:34.253Z error: Error creating order: order is not defined
+2025-02-11T08:13:34.256Z error: Error in API Gateway - /order: Request failed with status code 500
+2025-02-11T08:15:13.218Z info: Order Service running on port 3004
+2025-02-11T08:15:13.227Z info: MongoDB connected successfully
+2025-02-11T08:19:46.202Z info: Order Service running on port 3004
+2025-02-11T08:19:46.211Z info: MongoDB connected successfully
+2025-02-11T08:20:58.152Z info: API Gateway running on port 3000
+2025-02-11T12:04:49.053Z info: API Gateway running on port 3000
+2025-02-11T12:06:31.208Z error: Error in API Gateway - /order: connect ECONNREFUSED ::1:3004
+2025-02-11T12:07:15.953Z info: Order Service running on port 3004
+2025-02-11T12:07:15.963Z info: MongoDB connected successfully
+2025-02-11T12:29:28.976Z info: API Gateway running on port 3000
+2025-02-11T12:33:14.220Z error: Error in API Gateway - /order: Request stream has been aborted
+2025-02-11T12:34:14.044Z info: API Gateway running on port 3000
+2025-02-11T12:38:38.547Z info: Order Service running on port 3004
+2025-02-11T12:38:38.556Z info: MongoDB connected successfully
+2025-02-11T12:44:19.557Z error: Error fetching books: Cannot populate path `author` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-02-11T12:44:19.561Z error: Error in API Gateway - /books: Request failed with status code 500
+2025-02-11T12:44:40.026Z info: Order Service running on port 3004
+2025-02-11T12:44:40.035Z info: MongoDB connected successfully
+2025-02-11T12:45:11.755Z info: Order Service running on port 3004
+2025-02-11T12:45:11.765Z info: MongoDB connected successfully
+2025-02-11T12:48:47.816Z info: Order Service running on port 3004
+2025-02-11T12:48:47.825Z info: MongoDB connected successfully
+2025-02-11T12:48:49.532Z error: Error fetching books: utils.populate: invalid path. Expected string. Got typeof `object`
+2025-02-11T12:48:49.537Z error: Error in API Gateway - /books: Request failed with status code 500
+2025-02-11T12:50:57.111Z info: Order Service running on port 3004
+2025-02-11T12:50:57.119Z info: MongoDB connected successfully
+2025-02-11T12:51:00.004Z error: Error fetching books: Cannot populate path `book` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-02-11T12:51:00.012Z error: Error in API Gateway - /books: Request failed with status code 500
+2025-02-11T12:51:20.031Z info: Order Service running on port 3004
+2025-02-11T12:51:20.039Z info: MongoDB connected successfully
+2025-02-11T12:57:51.029Z info: Order Service running on port 3004
+2025-02-11T12:57:51.037Z info: MongoDB connected successfully
+2025-02-11T12:59:41.027Z info: Order Service running on port 3004
+2025-02-11T12:59:41.038Z info: MongoDB connected successfully
+2025-02-11T13:00:06.358Z error: Error fetching books: Cannot do exclusion on field __v in inclusion projection
+2025-02-11T13:00:06.363Z error: Error in API Gateway - /books: Request failed with status code 500
+2025-02-11T13:00:26.703Z info: Order Service running on port 3004
+2025-02-11T13:00:26.711Z info: MongoDB connected successfully
+2025-02-11T13:11:10.297Z info: Order Service running on port 3004
+2025-02-11T13:11:10.307Z info: MongoDB connected successfully

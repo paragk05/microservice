@@ -1,0 +1,11 @@
+2024-12-10T08:44:38.863Z info: User Service running on port 3001
+2024-12-10T08:47:28.438Z info: User Service running on port 3001
+2024-12-10T08:47:28.446Z info: MongoDB connected successfully
+2024-12-10T09:12:53.403Z info: User Service running on port 3001
+2024-12-10T09:12:53.411Z info: MongoDB connected successfully
+2024-12-10T09:12:58.071Z error: Error creating author: Author validation failed: dateOfBirth: Cast to date failed for value "23/12/1991" (type string) at path "dateOfBirth", biography: Path `biography` is required.
+2024-12-10T09:13:31.767Z error: Error creating author: Author validation failed: biography: Path `biography` is required.
+2024-12-10T09:13:43.861Z info: User Service running on port 3001
+2024-12-10T09:13:43.869Z info: MongoDB connected successfully
+2024-12-10T09:15:44.789Z info: User Service running on port 3001
+2024-12-10T09:15:44.797Z info: MongoDB connected successfully
