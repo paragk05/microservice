@@ -96,7 +96,7 @@ app.post('/order', tokenCheck, async (req, res) => {
   }
 });
 
-app.get('/order/:id', async (req, res) => {
+app.get('/order/:id', tokenCheck, async (req, res) => {
   try {
     const _id = req.params.id;
     const response = await axios.get('http://localhost:3004/order/' + _id);
@@ -106,6 +106,17 @@ app.get('/order/:id', async (req, res) => {
     res.status(500).json({ message: 'Error fetching order' });
   }
 });
+
+app.get('/getAllUsers', tokenCheck, async (req, res) => {
+  try {
+    const response = await axios.get('http://localhost:3002/getAllUsers');
+    res.json(response.data);
+  } catch (err) {
+    logger.error(`Error in API Gateway - /login: ${err.message}`);
+    res.status(500).json({ message: 'Error logging in user1' });
+  }
+});
+
 
 
 app.listen(PORT, () => {

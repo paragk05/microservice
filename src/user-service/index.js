@@ -48,6 +48,16 @@ app.post('/login', async (req, res) => {
   }
 });
 
+app.get('/getAllUsers', async(req,res)=> {
+  try {
+    const users = await User.find().select("username email -_id");
+    res.status(200).json(users)
+  } catch (error) {
+    logger.error(`Error fetching in user: ${err.message}`);
+    res.status(500).json({ message: 'Error logging in user' });
+  }
+})
+
 app.listen(PORT, () => {
   logger.info(`User Service running on port ${PORT}`);
 });

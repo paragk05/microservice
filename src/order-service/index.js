@@ -5,6 +5,7 @@ const User = require('../../models/user');
 const Author = require('../../models/author');
 const connectToDb = require('../../db-connection/db-connection');
 const logger = require('../../db-connection/logger');
+const axios = require('axios');
 require('dotenv').config();
 
 
@@ -33,7 +34,14 @@ app.get('/getAllorders', async (req, res) => {
 app.post('/createOrder', async (req, res) => {
   const { user, books, quantity, shippingAddress } = req.body;
   try {
-    let bookData = await Book.findOne({_id: books});
+    let bookData;
+      try {
+        const response = await axios.get('http://localhost:3003/book/' + books);
+        bookData = response.data;
+      } catch (err) {
+        logger.error(`Error in API Gateway - /books: ${err.message}`);
+        throw new err;
+      }
     if(!bookData) {
       throw new Error;
     }
